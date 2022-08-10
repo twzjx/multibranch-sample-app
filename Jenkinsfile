@@ -15,7 +15,7 @@ pipeline {
      }
       steps {
         sh '''
-	   cat REAME.md
+	   cat README.md
 	   '''
       }
     }
