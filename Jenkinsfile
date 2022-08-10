@@ -20,21 +20,4 @@ pipeline {
       }
     }
   }
-<<<<<<< Updated upstream
-=======
-  post {
-    always {
-        junit(
-          allowEmptyResults: true, 
-          testResults: '**/build/test-results/test/*.xml'
-        )
-    }
-  }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }
